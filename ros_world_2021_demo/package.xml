@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>ros_world_2021_demo</name>
+  <version>0.0.1</version>
+  <description>
+    ros2_tracing demo for ROS World 2021
+  </description>
+  <maintainer email="bedard.christophe@gmail.com">Christophe Bedard</maintainer>
+  <license>Apache License 2.0</license>
+  <author email="bedard.christophe@gmail.com">Christophe Bedard</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ros2launch</exec_depend>
+  <exec_depend>ros2run</exec_depend>
+  <exec_depend>tracetools_launch</exec_depend>
+
+  <test_depend>ament_cmake_mypy</test_depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
