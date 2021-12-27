@@ -1,6 +1,6 @@
 # ros-world-2021-demo
 
-Demo for ROS World 2021 talk: *Tracing ROS 2 with ros2_tracing*.
+Demo for ROS World 2021 talk: *Tracing ROS 2 with ros2_tracing* ([video](https://vimeo.com/652633418), [slides](https://gitlab.com/ros-tracing/ros2_tracing/-/raw/master/doc/2021-10-20_ROS_World_2021_-_Tracing_ROS_2_with_ros2_tracing.pdf)).
 
 ## Demo
 
