@@ -48,7 +48,7 @@ public:
   }
 
 private:
-  void callback(const std_msgs::msg::UInt32::ConstSharedPtr msg)
+  void callback(const std_msgs::msg::UInt32::SharedPtr msg)
   {
     uint32_t count = msg->data;
     if (0 == count) {
